@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #E0B0FF,#36454F,#ADD8E6,#355E3B);
+}
+
+.wrapper{
+    margin: 0 auto;
+    //vertical-align: middle;//
+}
